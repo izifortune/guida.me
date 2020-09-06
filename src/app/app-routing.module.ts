@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '/guide/:id',
+    path: 'guide/:id',
     loadChildren: () =>
       import('./audio-guide/audio-guide.module').then(
         (m) => m.AudioGuideModule
