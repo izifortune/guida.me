@@ -6,7 +6,7 @@ import { AudioGuideComponent } from './audio-guide.component';
 const routes: Routes = [
   { path: '', component: AudioGuideComponent },
   {
-    path: '/:elem',
+    path: ':elem',
     loadChildren: () =>
       import('../audio-element/audio-element.module').then(
         (m) => m.AudioElementModule
