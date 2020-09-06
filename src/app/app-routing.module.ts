@@ -9,6 +9,10 @@ const routes: Routes = [
         (m) => m.AudioGuideModule
       ),
   },
+  {
+    path: '',
+    loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
+  },
 ];
 
 @NgModule({
