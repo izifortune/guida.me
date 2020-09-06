@@ -1,1 +1,55 @@
-<p>audio-guide works!</p>
+<mat-toolbar color="primary">
+  <button
+    (click)="back()"
+    mat-icon-button
+    class="example-icon"
+    aria-label="back"
+  >
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span>{{ "exhibition.name" | translate }}</span>
+  <span class="example-spacer"></span>
+  <button (click)="selectLanguage()" mat-raised-button>
+    <img class="flag" [src]="language.flag" />
+  </button>
+</mat-toolbar>
+
+<div class="container">
+  <mat-card class="exhibition">
+    <img mat-card-image [src]="exhibition.image" alt="" />
+    <mat-card-subtitle>{{ exhibition.author }}</mat-card-subtitle>
+    <mat-card-title>{{ exhibition.title | translate }}</mat-card-title>
+    <mat-card-content>
+      <p>
+        {{ exhibition.description | translate }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="list">
+    <mat-card-content>
+      <mat-list>
+        <div mat-subheader>{{ "exhibition.list.label" | translate }}</div>
+        <mat-list-item
+          (click)="navigate(element)"
+          mat-list-item
+          *ngFor="let element of exhibition.elements"
+        >
+          <img matListAvatar [src]="element.image" alt="..." />
+          <h3 mat-line>{{ element.name }}</h3>
+          <div mat-line>{{ element.id }}</div>
+          <mat-icon>chevron_right</mat-icon>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  <button
+    (click)="search()"
+    class="fab"
+    mat-fab
+    color="primary"
+    aria-label="Search elements"
+  >
+    <mat-icon>search</mat-icon>
+  </button>
+</div>

@@ -1,1 +1,45 @@
-<p>element-search works!</p>
+<mat-toolbar color="primary">
+  <button
+    (click)="back()"
+    mat-icon-button
+    class="example-icon"
+    aria-label="back"
+  >
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span>{{ "exhibition.search.toolbar" | translate }}</span>
+</mat-toolbar>
+
+<div class="container">
+  <form ngSubmit="submit()">
+    <mat-form-field class="audio-input">
+      <mat-label>{{ "exhibition.input.placeholder" | translate }}</mat-label>
+      <input
+        matInput
+        type="text"
+        [(ngModel)]="searchedElement"
+        (ngModelChange)="filter()"
+        name="searchedElement"
+      />
+    </mat-form-field>
+  </form>
+  <mat-card class="exhibition">
+    <mat-card-content>
+      <mat-card-content>
+        <mat-list>
+          <div mat-subheader>{{ "exhibition.list.label" | translate }}</div>
+          <mat-list-item
+            (click)="navigate(element)"
+            mat-list-item
+            *ngFor="let element of exhibition.elements"
+          >
+            <img matListAvatar [src]="element.image" alt="..." />
+            <h3 mat-line>{{ element.name }}</h3>
+            <div mat-line>{{ element.id }}</div>
+            <mat-icon>chevron_right</mat-icon>
+          </mat-list-item>
+        </mat-list>
+      </mat-card-content>
+    </mat-card-content>
+  </mat-card>
+</div>

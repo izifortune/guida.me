@@ -13,10 +13,17 @@ const routes: Routes = [
       ),
   },
   {
-    path: ':elem',
+    path: 'element/:elem',
     loadChildren: () =>
       import('../audio-element/audio-element.module').then(
         (m) => m.AudioElementModule
+      ),
+  },
+  {
+    path: 'language',
+    loadChildren: () =>
+      import('../language-selector/language-selector.module').then(
+        (m) => m.LanguageSelectorModule
       ),
   },
 ];

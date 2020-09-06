@@ -1,1 +1,61 @@
-<p>audio-element works!</p>
+<mat-toolbar color="primary">
+  <button
+    (click)="back()"
+    mat-icon-button
+    class="example-icon"
+    aria-label="back"
+  >
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span>{{ element.name | translate }}</span>
+</mat-toolbar>
+
+<div class="container">
+  <mat-card class="exhibition">
+    <audio #audio [src]="element.audio"></audio>
+    <div class="player">
+      <div class="overlay"></div>
+      <img mat-card-image [src]="element.image" alt="" />
+      <mat-icon inline="true" *ngIf="!playing" (click)="play()" class="play"
+        >play_arrow</mat-icon
+      >
+      <mat-icon inline="true" *ngIf="playing" (click)="pause()" class="pause"
+        >pause</mat-icon
+      >
+    </div>
+    <mat-card-subtitle>{{ element.year }}</mat-card-subtitle>
+    <mat-card-title>{{ element.name | translate }}</mat-card-title>
+    <mat-card-content>
+      <p>
+        {{ element.description | translate }}
+      </p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="list" *ngIf="nextElement">
+    <mat-card-content>
+      <mat-list>
+        <div mat-subheader>{{ "element.nextElement.label" | translate }}</div>
+        <mat-list-item (click)="navigate(nextElement)" mat-list-item>
+          <img matListAvatar [src]="nextElement.image" alt="..." />
+          <h3 mat-line>{{ nextElement.name }}</h3>
+          <div mat-line>{{ nextElement.id }}</div>
+          <mat-icon>chevron_right</mat-icon>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="list" *ngIf="prevElement">
+    <mat-card-content>
+      <mat-list>
+        <div mat-subheader>{{ "element.prevElement.label" | translate }}</div>
+        <mat-list-item (click)="navigate(prevElement)" mat-list-item>
+          <mat-icon mat-list-icon>chevron_left</mat-icon>
+          <h3 mat-line>{{ prevElement.name }}</h3>
+          <div mat-line>{{ prevElement.id }}</div>
+          <img matListAvatar [src]="prevElement.image" alt="..." />
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>

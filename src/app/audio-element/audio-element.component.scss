@@ -1,0 +1,54 @@
+.container {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 8px;
+  position: relative;
+}
+
+mat-card {
+  margin-top: 16px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.player {
+  position: relative;
+  margin: 0 -16px 16px -16px
+}
+
+.player .mat-card-image {
+  margin: 0;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000061;
+}
+
+.player .play {
+  position: absolute;
+  z-index: 1;
+  font-size: 150px;
+  left: 50%;
+  margin-left: -75px;
+  top: 50%;
+  margin-top: -25px;
+}
+
+.player .pause {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  font-size: 150px;
+  margin-left: -75px;
+  top: 50%;
+  margin-top: -25px;
+}

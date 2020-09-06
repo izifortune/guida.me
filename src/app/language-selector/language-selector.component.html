@@ -1,1 +1,35 @@
-<p>language-selector works!</p>
+<mat-toolbar color="primary">
+  <button
+    (click)="back()"
+    mat-icon-button
+    class="example-icon"
+    aria-label="back"
+  >
+    <mat-icon>arrow_back</mat-icon>
+  </button>
+  <span>{{ "exhibition.language.toolbar" | translate }}</span>
+</mat-toolbar>
+
+<div class="container">
+  <mat-card class="exhibition">
+    <mat-card-content>
+      <h2>
+        {{ "exhibition.language.title" | translate }}
+      </h2>
+      <p>
+        {{ "exhibition.language.description" | translate }}
+      </p>
+
+      <mat-form-field appearance="fill">
+        <mat-select
+          [(value)]="selectedLanguage"
+          (selectionChange)="change($event)"
+        >
+          <mat-option *ngFor="let language of languages" [value]="language.code"
+            >{{ language.name | translate }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </mat-card-content>
+  </mat-card>
+</div>

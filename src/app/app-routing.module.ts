@@ -13,13 +13,6 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
   },
-  {
-    path: 'language',
-    loadChildren: () =>
-      import('./language-selector/language-selector.module').then(
-        (m) => m.LanguageSelectorModule
-      ),
-  },
 ];
 
 @NgModule({
