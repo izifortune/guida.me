@@ -16,10 +16,20 @@
     <div class="player">
       <div class="overlay"></div>
       <img mat-card-image [src]="element.image" alt="" />
-      <mat-icon inline="true" *ngIf="!playing" (click)="play()" class="play"
+      <mat-icon
+        style="color: white;"
+        inline="true"
+        *ngIf="!playing"
+        (click)="play()"
+        class="play"
         >play_arrow</mat-icon
       >
-      <mat-icon inline="true" *ngIf="playing" (click)="pause()" class="pause"
+      <mat-icon
+        style="color: white;"
+        inline="true"
+        *ngIf="playing"
+        (click)="pause()"
+        class="pause"
         >pause</mat-icon
       >
     </div>
