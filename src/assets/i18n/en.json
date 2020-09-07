@@ -19,5 +19,10 @@
   "audioguide.element.labour.name": "Slave Labour",
   "audioguide.element.labour.description": "Slave Labour is a mural that was painted by a British graffiti artist, Banksy, on the side wall of a Poundland store in Wood Green, London in May 2012. The artwork is 48.03 inches (122 cm) high by 59.84 inches (152 cm) wide, and depicts an urchin child at a sewing machine assembling a bunting of Union Jack patches.",
   "audioguide.element.antiracism.name": "Racist pigeons",
-  "audioguide.element.antiracism.description": "The latest mural by the controversial graffiti artist, whose real identity is not widely publicised, was painted overnight in Clacton-on-Sea, in Essex, a week ahead of a byelection in the town triggered by the decision of local Conservative MP, Douglas Carswell, to defect to the UK Independence Party (Ukip)."
+  "audioguide.element.antiracism.description": "The latest mural by the controversial graffiti artist, whose real identity is not widely publicised, was painted overnight in Clacton-on-Sea, in Essex, a week ahead of a byelection in the town triggered by the decision of local Conservative MP, Douglas Carswell, to defect to the UK Independence Party (Ukip).",
+  "dialog.payment.title": "Payment code",
+  "dialog.input.placeholder": "Insert code",
+  "dialog.input.error": "Code not valid",
+  "dialog.button.close": "Cancel",
+  "dialog.button.ok": "Ok"
 }

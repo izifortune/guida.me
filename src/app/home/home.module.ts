@@ -6,11 +6,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
 import { HomeRoutingModule } from './home-routing.module';
-import { HomeComponent } from './home.component';
+import { DialogPaymentComponent, HomeComponent } from './home.component';
 import { TranslateModule } from '@ngx-translate/core';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, DialogPaymentComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
@@ -19,6 +20,7 @@ import { TranslateModule } from '@ngx-translate/core';
     FormsModule,
     TranslateModule,
     MatButtonModule,
+    MatDialogModule,
   ],
 })
 export class HomeModule {}

@@ -19,5 +19,10 @@
   "audioguide.element.labour.name": "Il lavoro degli schiavi",
   "audioguide.element.labour.description": "Schiavo del lavoro è un murale che è stato dipinto da un artista di graffiti britannico, Banksy , sulla parete laterale di un Poundland negozio a Wood Green , Londra nel maggio 2012. L'opera è 48.03 pollici (122 cm) di altezza da 59.84 pollici (152cm) di larghezza, e raffigura un bambino riccio in una macchina da cucire l'assemblaggio di un pavese di Union Jack patch.",
   "audioguide.element.antiracism.name": "Piccioni razzisti",
-  "audioguide.element.antiracism.description": "Un murale di Banksy, probabilmente del valore di migliaia di sterline, è stato cancellato dal consiglio comunale di un paesino dell’Essex, dopo averlo reputato “razzista”.  L’opera d’arte, che mostra un gruppo di piccioni con degli striscioni anti-immigrazione (“Gli immigrati non sono benvenuti” e “Tornate in Africa”), era apparsa la notte di martedì scorso a Clacton-on-Sea."
+  "audioguide.element.antiracism.description": "Un murale di Banksy, probabilmente del valore di migliaia di sterline, è stato cancellato dal consiglio comunale di un paesino dell’Essex, dopo averlo reputato “razzista”.  L’opera d’arte, che mostra un gruppo di piccioni con degli striscioni anti-immigrazione (“Gli immigrati non sono benvenuti” e “Tornate in Africa”), era apparsa la notte di martedì scorso a Clacton-on-Sea.",
+  "dialog.payment.title": "Codice pagamento",
+  "dialog.input.placeholder": "Inserisci codice",
+  "dialog.input.error": "Codice non valido",
+  "dialog.button.close": "Annulla",
+  "dialog.button.ok": "Ok"
 }
