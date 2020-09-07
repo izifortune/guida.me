@@ -1,21 +1,23 @@
-<img src="logo.png" />
+<div class="container">
+  <img class="logo" src="/assets/logo.png" />
 
-<h2 class="description">
-  {{ "home.page.description" | translate }}
-</h2>
+  <h2 class="description">
+    {{ "home.page.description" | translate }}
+  </h2>
 
-<form ngSubmit="submit()">
-  <mat-form-field class="audio-input">
-    <mat-label>{{ "home.input.placeholder" | translate }}</mat-label>
-    <input matInput type="text" [(ngModel)]="code" name="code" />
-    <button
-      mat-button
-      matSuffix
-      mat-icon-button
-      aria-label="Search"
-      (click)="submit()"
-    >
-      <mat-icon>search</mat-icon>
-    </button>
-  </mat-form-field>
-</form>
+  <form ngSubmit="submit()">
+    <mat-form-field class="audio-input">
+      <mat-label>{{ "home.input.placeholder" | translate }}</mat-label>
+      <input matInput type="text" [(ngModel)]="code" name="code" />
+      <button
+        mat-button
+        matSuffix
+        mat-icon-button
+        aria-label="Search"
+        (click)="submit()"
+      >
+        <mat-icon>search</mat-icon>
+      </button>
+    </mat-form-field>
+  </form>
+</div>
