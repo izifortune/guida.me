@@ -38,7 +38,7 @@
         <div mat-subheader>{{ "element.nextElement.label" | translate }}</div>
         <mat-list-item (click)="navigate(nextElement)" mat-list-item>
           <img matListAvatar [src]="nextElement.image" alt="..." />
-          <h3 mat-line>{{ nextElement.name }}</h3>
+          <h3 mat-line>{{ nextElement.name | translate }}</h3>
           <div mat-line>{{ nextElement.id }}</div>
           <mat-icon>chevron_right</mat-icon>
         </mat-list-item>
@@ -51,7 +51,7 @@
         <div mat-subheader>{{ "element.prevElement.label" | translate }}</div>
         <mat-list-item (click)="navigate(prevElement)" mat-list-item>
           <mat-icon mat-list-icon>chevron_left</mat-icon>
-          <h3 mat-line>{{ prevElement.name }}</h3>
+          <h3 mat-line>{{ prevElement.name | translate }}</h3>
           <div mat-line>{{ prevElement.id }}</div>
           <img matListAvatar [src]="prevElement.image" alt="..." />
         </mat-list-item>

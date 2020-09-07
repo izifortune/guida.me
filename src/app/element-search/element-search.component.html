@@ -34,7 +34,7 @@
             *ngFor="let element of exhibition.elements"
           >
             <img matListAvatar [src]="element.image" alt="..." />
-            <h3 mat-line>{{ element.name }}</h3>
+            <h3 mat-line>{{ element.name | translate }}</h3>
             <div mat-line>{{ element.id }}</div>
             <mat-icon>chevron_right</mat-icon>
           </mat-list-item>

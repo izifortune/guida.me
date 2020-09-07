@@ -1,12 +1,16 @@
 import { Injectable } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ExhibitionService {
-  constructor() {}
+  constructor(private translate: TranslateService) {}
 
   getExhibition(code: any) {
+    const lang = this.translate.currentLang;
+    console.log(lang);
+    // TODO pagamento
     if (code === 'SOM') {
       return {
         elements: [
@@ -19,7 +23,7 @@ export class ExhibitionService {
     return {
       author: 'Bansky',
       title: 'audioguide.exhibition.title',
-      description: 'audioguide.exhibition.dscription',
+      description: 'audioguide.exhibition.description',
       image:
         'https://www.chiostrodelbramante.it/wp-content/uploads/2020/06/home-page-banksy-jack-jill_blu.png',
       elements: [
@@ -28,7 +32,9 @@ export class ExhibitionService {
           year: 2002,
           id: 1,
           audio:
-            'https://freemp3cloud.com/mr/577f7705960c09b4c194bad5633343b9.mp3?session_key=c932b6194172f2119be9a1d7e8604a57',
+            lang === 'it'
+              ? '/assets/audio/bansky.it.mp3'
+              : '/assets/audio/baloon.en.mp3',
           description: 'audioguide.element.baloon.description',
           image:
             'https://guyhepner.com/wp-content/uploads/2015/05/Girl-with-a-Balloon-by-Banksy.jpg',
@@ -36,6 +42,10 @@ export class ExhibitionService {
         {
           name: 'audioguide.element.labour.name',
           year: 2013,
+          audio:
+            lang === 'it'
+              ? '/assets/audio/bansky.it.mp3'
+              : '/assets/audio/labour.en.mp3',
           description: 'audioguide.element.labour.description',
           id: 2,
           image:
@@ -45,6 +55,10 @@ export class ExhibitionService {
           name: 'audioguide.element.antiracism.name',
           id: 3,
           year: 2014,
+          audio:
+            lang === 'it'
+              ? '/assets/audio/bansky.it.mp3'
+              : '/assets/audio/pigeons.en.mp3',
           description: 'audioguide.element.antiracism.description',
           image: 'http://www.arte.it/foto/600x450/21/25734-mi_02_2.jpg',
         },

@@ -31,6 +31,8 @@ export class LanguageService {
       )
       .subscribe();
     this.flag =
-      'https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/it.png';
+      this.translate.currentLang === 'it'
+        ? 'https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/it.png'
+        : 'https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/gb.png';
   }
 }
