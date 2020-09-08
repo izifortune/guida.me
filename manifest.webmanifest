@@ -1,11 +1,12 @@
 {
-  "name": "guide-me",
-  "short_name": "guide-me",
-  "theme_color": "#1976d2",
+  "name": "Guida.me",
+  "short_name": "Guida.me",
+  "theme_color": "#3747ac",
   "background_color": "#fafafa",
-  "display": "standalone",
+  "display": "fullscreen",
+  "description": "La tua audioguida personale per mostre ed esibizioni",
   "scope": "./",
-  "start_url": "./",
+  "start_url": "/guida.me/index.html",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
