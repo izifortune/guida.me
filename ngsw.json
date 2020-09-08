@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599597332001,
+  "timestamp": 1599597376896,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -73,7 +73,7 @@
     "/guida.me/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/guida.me/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/guida.me/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
-    "/guida.me/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/guida.me/favicon.ico": "5c7415d9203bfa75f149bb9db9764df605e3a015",
     "/guida.me/index.html": "136cb7e55fe2f8b4ee3a6fd15e5c6af95ccaa72c",
     "/guida.me/main.29a2c71db3512684a211.js": "86954ac2daba9d87d62c614b7a94b007c6bfee6e",
     "/guida.me/manifest.webmanifest": "6f390c138c141afdb57ae64e3dfacabbe69a02d9",
