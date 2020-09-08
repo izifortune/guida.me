@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599597653578,
+  "timestamp": 1599598046458,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -11,16 +11,16 @@
         "ignoreVary": true
       },
       "urls": [
-        "/guida.me/4.e2cf1817c022779034db.js",
+        "/guida.me/4.45f1bd35665f9db7a6a6.js",
         "/guida.me/5.f14c75e3303ee9ca8481.js",
         "/guida.me/6.b22bf396331f9ec3c6a4.js",
         "/guida.me/7.f8c40534cfd5677c4352.js",
         "/guida.me/favicon.ico",
         "/guida.me/index.html",
-        "/guida.me/main.29a2c71db3512684a211.js",
+        "/guida.me/main.b10f1a42034c4483a216.js",
         "/guida.me/manifest.webmanifest",
         "/guida.me/polyfills.08cdd93a9921fbb99ed7.js",
-        "/guida.me/runtime.64f835456ed7520cf2bb.js",
+        "/guida.me/runtime.851fb396b89e4c974816.js",
         "/guida.me/styles.2188ca7b16ae1c920c07.css"
       ],
       "patterns": []
@@ -48,14 +48,15 @@
         "/guida.me/assets/icons/icon-512x512.png",
         "/guida.me/assets/icons/icon-72x72.png",
         "/guida.me/assets/icons/icon-96x96.png",
-        "/guida.me/assets/logo.png"
+        "/guida.me/assets/logo.png",
+        "/guida.me/assets/racist-pigeons.jpg"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/guida.me/4.e2cf1817c022779034db.js": "579e103536ffdc81d0ecca37404f982a6e630688",
+    "/guida.me/4.45f1bd35665f9db7a6a6.js": "864cff812f1036628110259d6568b0f215354b4a",
     "/guida.me/5.f14c75e3303ee9ca8481.js": "8c5cb799c783fe5a446cdd319f4143bc50dce815",
     "/guida.me/6.b22bf396331f9ec3c6a4.js": "faf5983dd17d2874504b8a73cb787c094017b35a",
     "/guida.me/7.f8c40534cfd5677c4352.js": "e447e19488d037ce0d4194665e70cf3bc9a175b0",
@@ -63,7 +64,7 @@
     "/guida.me/assets/audio/banksy.it.mp3": "be4805675f825a1bfb42f519c924f9e1085644fd",
     "/guida.me/assets/audio/labour.en.mp3": "d884f371abc70df2d3d8a9ea35c446ea8068f0e2",
     "/guida.me/assets/audio/pigeons.en.mp3": "a48456f28494d1a07f5734bbe819a2b6792e483f",
-    "/guida.me/assets/bansky.png": "457de93b3b8ffbfd995b7a7cf2d93df7e355d952",
+    "/guida.me/assets/bansky.png": "22109718ec61514f3e5219a12317d9e2d5204422",
     "/guida.me/assets/i18n/en.json": "d17d4a42aa07a21c46a60c36b3d10c2a3e526315",
     "/guida.me/assets/i18n/it.json": "9dbc89da1296b2f7f505587cebb61f63d04e7406",
     "/guida.me/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
@@ -75,12 +76,13 @@
     "/guida.me/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/guida.me/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/guida.me/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
+    "/guida.me/assets/racist-pigeons.jpg": "8bdb1c7a56d0a40eacf9c137af52f64d4785cef9",
     "/guida.me/favicon.ico": "5c7415d9203bfa75f149bb9db9764df605e3a015",
-    "/guida.me/index.html": "41ec401eceb5213c9828d0ea429da011e482b99a",
-    "/guida.me/main.29a2c71db3512684a211.js": "86954ac2daba9d87d62c614b7a94b007c6bfee6e",
+    "/guida.me/index.html": "7f0ec5ce293bb7f12e714f89bf4825f2cb2ecc2e",
+    "/guida.me/main.b10f1a42034c4483a216.js": "cdc45e253dee8b2f3333792013dced9ac719ffee",
     "/guida.me/manifest.webmanifest": "6f390c138c141afdb57ae64e3dfacabbe69a02d9",
     "/guida.me/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
-    "/guida.me/runtime.64f835456ed7520cf2bb.js": "20335a561178ff447760e0b0b4ffe62e228e96d4",
+    "/guida.me/runtime.851fb396b89e4c974816.js": "101cac8b6b8158f34fa020849b18f1fd6a7f0815",
     "/guida.me/styles.2188ca7b16ae1c920c07.css": "db26d4d0e71623b892621c051568ffa2673f526b"
   },
   "navigationUrls": [
