@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599597088793,
+  "timestamp": 1599597332001,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/guida.me/7.f8c40534cfd5677c4352.js",
         "/guida.me/favicon.ico",
         "/guida.me/index.html",
-        "/guida.me/main.e8deb839c093e6d5d73d.js",
+        "/guida.me/main.29a2c71db3512684a211.js",
         "/guida.me/manifest.webmanifest",
         "/guida.me/polyfills.08cdd93a9921fbb99ed7.js",
         "/guida.me/runtime.ce8cff1677b8dd284fdc.js",
@@ -74,8 +74,8 @@
     "/guida.me/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/guida.me/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
     "/guida.me/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/guida.me/index.html": "e1517c9a304bcdce371acd2c074519cb0d5b2b9c",
-    "/guida.me/main.e8deb839c093e6d5d73d.js": "00ab51858f95d834c70e638195ea9f1b520b2765",
+    "/guida.me/index.html": "136cb7e55fe2f8b4ee3a6fd15e5c6af95ccaa72c",
+    "/guida.me/main.29a2c71db3512684a211.js": "86954ac2daba9d87d62c614b7a94b007c6bfee6e",
     "/guida.me/manifest.webmanifest": "6f390c138c141afdb57ae64e3dfacabbe69a02d9",
     "/guida.me/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/guida.me/runtime.ce8cff1677b8dd284fdc.js": "851cf48ef650247e1ac72fba5f9ec81ed917a165",
