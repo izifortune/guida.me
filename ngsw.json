@@ -1,0 +1,102 @@
+{
+  "configVersion": 1,
+  "timestamp": 1599596614837,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/4.fe29c53e6bd3496ee68a.js",
+        "/5.f14c75e3303ee9ca8481.js",
+        "/6.b22bf396331f9ec3c6a4.js",
+        "/7.f8c40534cfd5677c4352.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.e8deb839c093e6d5d73d.js",
+        "/manifest.webmanifest",
+        "/polyfills.08cdd93a9921fbb99ed7.js",
+        "/runtime.838673e8b2d3b5503324.js",
+        "/styles.2188ca7b16ae1c920c07.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/audio/baloon.en.mp3",
+        "/assets/audio/banksy.it.mp3",
+        "/assets/audio/labour.en.mp3",
+        "/assets/audio/pigeons.en.mp3",
+        "/assets/i18n/en.json",
+        "/assets/i18n/it.json",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/4.fe29c53e6bd3496ee68a.js": "d0bc805052431fffd65b0c41932eab666b1ea156",
+    "/5.f14c75e3303ee9ca8481.js": "8c5cb799c783fe5a446cdd319f4143bc50dce815",
+    "/6.b22bf396331f9ec3c6a4.js": "faf5983dd17d2874504b8a73cb787c094017b35a",
+    "/7.f8c40534cfd5677c4352.js": "e447e19488d037ce0d4194665e70cf3bc9a175b0",
+    "/assets/audio/baloon.en.mp3": "704fb551a2af0e6cf4751c62816331ec3106c2c0",
+    "/assets/audio/banksy.it.mp3": "be4805675f825a1bfb42f519c924f9e1085644fd",
+    "/assets/audio/labour.en.mp3": "d884f371abc70df2d3d8a9ea35c446ea8068f0e2",
+    "/assets/audio/pigeons.en.mp3": "a48456f28494d1a07f5734bbe819a2b6792e483f",
+    "/assets/i18n/en.json": "d17d4a42aa07a21c46a60c36b3d10c2a3e526315",
+    "/assets/i18n/it.json": "9dbc89da1296b2f7f505587cebb61f63d04e7406",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "948d186c50a9c2383e03b92a904ea68f2dd51b56",
+    "/main.e8deb839c093e6d5d73d.js": "00ab51858f95d834c70e638195ea9f1b520b2765",
+    "/manifest.webmanifest": "6f390c138c141afdb57ae64e3dfacabbe69a02d9",
+    "/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
+    "/runtime.838673e8b2d3b5503324.js": "f1a3a05a4fe55c298a1a21bb51571ed60167cbe4",
+    "/styles.2188ca7b16ae1c920c07.css": "db26d4d0e71623b892621c051568ffa2673f526b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
