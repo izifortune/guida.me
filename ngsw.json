@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599599260216,
+  "timestamp": 1599599362902,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -80,7 +80,7 @@
     "/guida.me/favicon.ico": "5c7415d9203bfa75f149bb9db9764df605e3a015",
     "/guida.me/index.html": "09aace95c92423d65b2a758a25dcf47596b5bdc5",
     "/guida.me/main.fc3045482a331e5a46a4.js": "e1a117f2cbe6a7f681fe1d87e59020f45409d23a",
-    "/guida.me/manifest.webmanifest": "e03019b6e04e89a8efe1ee5078e68dd6b8692ba0",
+    "/guida.me/manifest.webmanifest": "89e3069551b4e083328c726fe95c86ae40d4be23",
     "/guida.me/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
     "/guida.me/runtime.28c22ee33b94343ff536.js": "51f39fb22ace19d2d3cff5ef31b0bc88314cb4cf",
     "/guida.me/styles.2188ca7b16ae1c920c07.css": "db26d4d0e71623b892621c051568ffa2673f526b"
