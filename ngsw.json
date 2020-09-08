@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599599362902,
+  "timestamp": 1599600098176,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -34,7 +34,7 @@
       },
       "urls": [
         "/guida.me/assets/audio/baloon.en.mp3",
-        "/guida.me/assets/audio/banksy.it.mp3",
+        "/guida.me/assets/audio/bansky.it.mp3",
         "/guida.me/assets/audio/labour.en.mp3",
         "/guida.me/assets/audio/pigeons.en.mp3",
         "/guida.me/assets/bansky.png",
@@ -61,7 +61,7 @@
     "/guida.me/6.b22bf396331f9ec3c6a4.js": "faf5983dd17d2874504b8a73cb787c094017b35a",
     "/guida.me/7.f8c40534cfd5677c4352.js": "e447e19488d037ce0d4194665e70cf3bc9a175b0",
     "/guida.me/assets/audio/baloon.en.mp3": "704fb551a2af0e6cf4751c62816331ec3106c2c0",
-    "/guida.me/assets/audio/banksy.it.mp3": "be4805675f825a1bfb42f519c924f9e1085644fd",
+    "/guida.me/assets/audio/bansky.it.mp3": "be4805675f825a1bfb42f519c924f9e1085644fd",
     "/guida.me/assets/audio/labour.en.mp3": "d884f371abc70df2d3d8a9ea35c446ea8068f0e2",
     "/guida.me/assets/audio/pigeons.en.mp3": "a48456f28494d1a07f5734bbe819a2b6792e483f",
     "/guida.me/assets/bansky.png": "22109718ec61514f3e5219a12317d9e2d5204422",
@@ -78,7 +78,7 @@
     "/guida.me/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
     "/guida.me/assets/racist-pigeons.jpg": "8bdb1c7a56d0a40eacf9c137af52f64d4785cef9",
     "/guida.me/favicon.ico": "5c7415d9203bfa75f149bb9db9764df605e3a015",
-    "/guida.me/index.html": "09aace95c92423d65b2a758a25dcf47596b5bdc5",
+    "/guida.me/index.html": "5c669271851010854c3d614e10880379b4a575c7",
     "/guida.me/main.fc3045482a331e5a46a4.js": "e1a117f2cbe6a7f681fe1d87e59020f45409d23a",
     "/guida.me/manifest.webmanifest": "89e3069551b4e083328c726fe95c86ae40d4be23",
     "/guida.me/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
