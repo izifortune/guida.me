@@ -10,13 +10,20 @@
   <span>{{ "exhibition.name" | translate }}</span>
   <span class="example-spacer"></span>
   <button (click)="selectLanguage()" mat-raised-button>
-    <img class="flag" [src]="language.flag" />
+    <img width="36" height="18" class="flag" [src]="language.flag" />
   </button>
 </mat-toolbar>
 
 <div class="container">
   <mat-card class="exhibition">
-    <img class="card-image" mat-card-image [src]="exhibition.image" alt="" />
+    <img
+      width="600"
+      height="170"
+      class="card-image"
+      mat-card-image
+      [src]="exhibition.image"
+      alt=""
+    />
     <mat-card-subtitle>{{ exhibition.author }}</mat-card-subtitle>
     <mat-card-title>{{ exhibition.title | translate }}</mat-card-title>
     <mat-card-content>
@@ -35,7 +42,13 @@
           mat-list-item
           *ngFor="let element of exhibition.elements"
         >
-          <img matListAvatar [src]="element.image" alt="..." />
+          <img
+            height="40"
+            width="40"
+            matListAvatar
+            [src]="element.image"
+            alt="..."
+          />
           <h3 mat-line>{{ element.name | translate }}</h3>
           <div mat-line>{{ element.id }}</div>
           <mat-icon>chevron_right</mat-icon>

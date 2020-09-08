@@ -15,7 +15,13 @@
     <audio #audio [src]="element.audio"></audio>
     <div class="player">
       <div class="overlay"></div>
-      <img mat-card-image [src]="element.image" alt="" />
+      <img
+        width="600"
+        height="405"
+        mat-card-image
+        [src]="element.image"
+        alt=""
+      />
       <mat-icon
         style="color: white;"
         inline="true"
@@ -47,7 +53,13 @@
       <mat-list>
         <div mat-subheader>{{ "element.nextElement.label" | translate }}</div>
         <mat-list-item (click)="navigate(nextElement)" mat-list-item>
-          <img matListAvatar [src]="nextElement.image" alt="..." />
+          <img
+            height="40"
+            width="40"
+            matListAvatar
+            [src]="nextElement.image"
+            alt="..."
+          />
           <h3 mat-line>{{ nextElement.name | translate }}</h3>
           <div mat-line>{{ nextElement.id }}</div>
           <mat-icon>chevron_right</mat-icon>
@@ -63,7 +75,13 @@
           <mat-icon mat-list-icon>chevron_left</mat-icon>
           <h3 mat-line>{{ prevElement.name | translate }}</h3>
           <div mat-line>{{ prevElement.id }}</div>
-          <img matListAvatar [src]="prevElement.image" alt="..." />
+          <img
+            height="40"
+            width="40"
+            matListAvatar
+            [src]="prevElement.image"
+            alt="..."
+          />
         </mat-list-item>
       </mat-list>
     </mat-card-content>

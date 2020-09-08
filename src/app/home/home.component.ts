@@ -38,6 +38,7 @@ export class HomeComponent implements OnInit {
       this.dialog
         .open(DialogPaymentComponent)
         .afterClosed()
+        .pipe(take(1))
         .subscribe((result: any) => {
           if (result === 'ok') {
             this.router.navigate(['guide', this.code]);

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { environment } from '../environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -24,8 +25,7 @@ export class ExhibitionService {
       author: 'Bansky',
       title: 'audioguide.exhibition.title',
       description: 'audioguide.exhibition.description',
-      image:
-        'https://www.chiostrodelbramante.it/wp-content/uploads/2020/06/home-page-banksy-jack-jill_blu.png',
+      image: `${environment.baseUrl}/assets/bansky.png`,
       elements: [
         {
           name: 'audioguide.element.baloon.name',
@@ -33,8 +33,8 @@ export class ExhibitionService {
           id: 1,
           audio:
             lang === 'it'
-              ? '/assets/audio/bansky.it.mp3'
-              : '/assets/audio/baloon.en.mp3',
+              ? `${environment.baseUrl}/assets/audio/bansky.it.mp3`
+              : `${environment.baseUrl}/assets/audio/baloon.en.mp3`,
           description: 'audioguide.element.baloon.description',
           image:
             'https://guyhepner.com/wp-content/uploads/2015/05/Girl-with-a-Balloon-by-Banksy.jpg',
@@ -44,8 +44,8 @@ export class ExhibitionService {
           year: 2013,
           audio:
             lang === 'it'
-              ? '/assets/audio/bansky.it.mp3'
-              : '/assets/audio/labour.en.mp3',
+              ? `${environment.baseUrl}/assets/audio/bansky.it.mp3`
+              : `${environment.baseUrl}/assets/audio/labour.en.mp3`,
           description: 'audioguide.element.labour.description',
           id: 2,
           image:
@@ -57,10 +57,10 @@ export class ExhibitionService {
           year: 2014,
           audio:
             lang === 'it'
-              ? '/assets/audio/bansky.it.mp3'
-              : '/assets/audio/pigeons.en.mp3',
+              ? `${environment.baseUrl}/assets/audio/bansky.it.mp3`
+              : `${environment.baseUrl}/assets/audio/pigeons.en.mp3`,
           description: 'audioguide.element.antiracism.description',
-          image: 'http://www.arte.it/foto/600x450/21/25734-mi_02_2.jpg',
+          image: `${environment.baseUrl}/assets/racist-pigeons.jpg`,
         },
       ],
     };

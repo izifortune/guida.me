@@ -13,6 +13,7 @@ export class AudioElementComponent implements OnInit {
   public nextElement: any;
   public prevElement: any;
   public playing = false;
+  private sub: any;
 
   @ViewChild('audio') audio: any;
 
@@ -23,9 +24,10 @@ export class AudioElementComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe((params) => {
+    this.sub = this.route.params.subscribe((params) => {
       const id = this.route.snapshot.paramMap.get('id');
       const elem = this.route.snapshot.paramMap.get('elem');
+      this.playing = false;
       this.exhibition = this.exhibitionService.getExhibition(id);
       this.element = this.exhibition.elements.find(
         (el: any) => el.id === parseInt(elem as any, 10)
@@ -39,6 +41,10 @@ export class AudioElementComponent implements OnInit {
         (el: any) => el.id === parseInt(elem as any, 10) - 1
       );
     });
+  }
+
+  ngOnDestroy() {
+    this.sub.unsubscribe();
   }
 
   public navigate(element: any) {
