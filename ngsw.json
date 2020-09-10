@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599600098176,
+  "timestamp": 1599766438923,
   "index": "/guida.me/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "ignoreVary": true
       },
       "urls": [
-        "/guida.me/4.dbe41941549378ef7e98.js",
+        "/guida.me/4.d9c53e85f8e74b92775e.js",
         "/guida.me/5.ccd36f701c380e78be2a.js",
         "/guida.me/6.b22bf396331f9ec3c6a4.js",
         "/guida.me/7.f8c40534cfd5677c4352.js",
@@ -20,7 +20,7 @@
         "/guida.me/main.fc3045482a331e5a46a4.js",
         "/guida.me/manifest.webmanifest",
         "/guida.me/polyfills.08cdd93a9921fbb99ed7.js",
-        "/guida.me/runtime.28c22ee33b94343ff536.js",
+        "/guida.me/runtime.cc9d8512dbc23b9d2a00.js",
         "/guida.me/styles.2188ca7b16ae1c920c07.css"
       ],
       "patterns": []
@@ -56,7 +56,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/guida.me/4.dbe41941549378ef7e98.js": "96041b8a7983026e10fbe81b6b785baa7c07e4a7",
+    "/guida.me/4.d9c53e85f8e74b92775e.js": "5644dc06f9aaa81cf207d135655082ac114e6d66",
     "/guida.me/5.ccd36f701c380e78be2a.js": "79b26ff08de66cd2a740a451153af55fb2c35c66",
     "/guida.me/6.b22bf396331f9ec3c6a4.js": "faf5983dd17d2874504b8a73cb787c094017b35a",
     "/guida.me/7.f8c40534cfd5677c4352.js": "e447e19488d037ce0d4194665e70cf3bc9a175b0",
@@ -78,11 +78,11 @@
     "/guida.me/assets/logo.png": "ba034770307eeee560c70102c681914e13586aa4",
     "/guida.me/assets/racist-pigeons.jpg": "8bdb1c7a56d0a40eacf9c137af52f64d4785cef9",
     "/guida.me/favicon.ico": "5c7415d9203bfa75f149bb9db9764df605e3a015",
-    "/guida.me/index.html": "5c669271851010854c3d614e10880379b4a575c7",
+    "/guida.me/index.html": "5368aedb5a165f52e371a084a4df9123a9fcd660",
     "/guida.me/main.fc3045482a331e5a46a4.js": "e1a117f2cbe6a7f681fe1d87e59020f45409d23a",
     "/guida.me/manifest.webmanifest": "89e3069551b4e083328c726fe95c86ae40d4be23",
     "/guida.me/polyfills.08cdd93a9921fbb99ed7.js": "578360d24ce37383f261c7ef63b1f822d28e8dde",
-    "/guida.me/runtime.28c22ee33b94343ff536.js": "51f39fb22ace19d2d3cff5ef31b0bc88314cb4cf",
+    "/guida.me/runtime.cc9d8512dbc23b9d2a00.js": "7d503fad917e5490295879dc54348550f94a2b8a",
     "/guida.me/styles.2188ca7b16ae1c920c07.css": "db26d4d0e71623b892621c051568ffa2673f526b"
   },
   "navigationUrls": [
