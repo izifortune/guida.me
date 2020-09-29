@@ -22,7 +22,7 @@ export class ExhibitionService {
       };
     }
     return {
-      author: 'Bansky',
+      author: 'Banksy',
       title: 'audioguide.exhibition.title',
       description: 'audioguide.exhibition.description',
       image: `${environment.baseUrl}/assets/bansky.png`,
